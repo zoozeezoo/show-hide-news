@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+  margin: 0;
+  padding: 0;
+
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+header, footer {
+  background-color: #333;
+}
+
+.header {
+  color: #f2f2f2;
+  padding: 10px 0 10px 60px;
+}
+
+.header span {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+header p {
+letter-spacing: 4.5px;
+color: #990000;
+font-weight: bold;
+}
+
+section {
+  background: linear-gradient(to bottom right, white, #999);
+  padding-bottom: 30px;
+}
+
+.box {
+  width: 400px;
+  height: 250px;
+  margin: 10px 10px;
+}
+
+.imgBox1 {
+  background-image: url(../images/IMG_1826.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+
+}
+
+.imgBox2 {
+  background-image: url(../images/IMG_1827.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.imgBoxText {
+  width: 400px;
+  height: 200px;
+  padding: 5px 15px 5px 15px;
+  overflow: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+/*.showText {
+  display: block;
+}*/
+
+.textBox {
+  width: 400px;
+  height: 650px;
+  float: right;
+  background-color: white;
+  overflow: auto;
+}
+
+.textBox p {
+  padding: 15px;
+}
+
+.boxTitle {
+  width: 400px;
+  height: 50px;
+  background-color: #990000;
+  cursor: pointer;
+}
+
+.boxTitle1 {
+  background-color: #1a1a1a;
+}
+
+.boxTitle span, .boxTitle1 span {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  letter-spacing: 6px;
+  color: white;
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+.callToAct {
+  margin-top: 30px;
+  padding: 0 20%;
+  clear: both;
+  cursor: pointer;
+  /*width: 60%;*/
+
+}
+
+.callToActInner {
+  text-align: center;
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+  padding: 20px;
+  border-radius: 15px;
+  line-height: 25px;
+}
+
+.callToAct span {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  color: #f2f2f2;
+  padding: 30px 0;
+}
