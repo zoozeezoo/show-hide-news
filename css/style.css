@@ -35,7 +35,7 @@ header, footer {
   text-transform: uppercase;
 }
 
-header p {
+.header p {
 letter-spacing: 4.5px;
 color: #990000;
 font-weight: bold;

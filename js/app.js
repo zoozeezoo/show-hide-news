@@ -1,30 +1,31 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-            var boxTitle = document.querySelectorAll('.boxTitle')
+    var boxTitle = document.querySelectorAll('#boxTitle');
 
 
-            for (var i = 0; i < boxTitle.length; i++) {
+    for (var i = 0; i < boxTitle.length; i++) {
 
-                boxTitle[i].addEventListener('click', function() {
-                        var imgBoxText = this.nextElementSibling;
-                        if (imgBoxText.style.visibility = 'hidden') {
+        boxTitle[i].addEventListener('click', function() {
+            var imgBoxText = this.nextElementSibling;
+            if (imgBoxText.style.visibility === 'hidden') {
 
-                              imgBoxText.style.visibility = 'visible';
-                            } else {
+                imgBoxText.style.visibility = 'visible';
 
-                              imgBoxText.style.visibility = 'hidden'
-                              // imgBoxText.addEventListener('click', function () {
-                              //   imgBoxText.style.visibility = 'initial';
-                              // })
+            } else {
+
+                imgBoxText.style.visibility = 'hidden'
+                    // imgBoxText.addEventListener('click', function () {
+                    //   imgBoxText.style.visibility === 'initial';
+                    // })
 
 
 
-                              // imgBoxText.style.display = 'none';
-                            }
+                // imgBoxText.style.display = 'none';
+            };
 
-                            // for (var i = 0; i < imgBoxText.length; i++) {
-                            //     imgBoxText.classList.toggle('showText');
-                            // };
-                        });
-                };
-            });
+            // for (var i = 0; i < imgBoxText.length; i++) {
+            //     imgBoxText.classList.toggle('showText');
+            // };
+        });
+    };
+});
