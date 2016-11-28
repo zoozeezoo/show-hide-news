@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-    var boxTitle = document.querySelectorAll('#boxTitle');
+    var boxTitle = document.querySelectorAll('.hide');
 
 
     for (var i = 0; i < boxTitle.length; i++) {
